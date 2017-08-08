@@ -12,6 +12,13 @@ int main(){
     float positiveNum=0,negativeNum=0,zeroNum=0,res1,res2,res3; 
     scanf("%d",&n);
     int arr[n];
+    
+    
+    char a[] = {'a', 'b', 'c', 'd', 'e', 'f'};
+    int size = sizeof(a)/sizeof(a[0]);
+    
+    printf("Size = %d\n",size);
+    
     for(arr_i = 0; arr_i < n; arr_i++){
        scanf("%d",&arr[arr_i]);
     }
